@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+北羽，90新生代农民工。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+喜欢一切与计算机有关的技术，擅长后端系统架构、稳定性建设。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+主要使用Java语言开发，辅助使用python来解决一些繁琐的手工操作。
+
+
+**主要履历**
+
+2011.11 - 2013.10 北京某公司做电商ERP
+
+2013.10 - 2015.5 上海某公司做手游后端研发
+
+2015.5 - 至今 上海某公司做研发，历经项目从0到1搭建，业务研发、线上系统救火抢险等各种工作。最近2年主要专注于系统稳定性建设。
 
 
 [jekyll-organization]: https://github.com/jekyll
