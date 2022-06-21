@@ -30,7 +30,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-analytics
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -50,4 +50,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-google_analytics: G-WHYSBD644S
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-WHYSBD644S
+    anonymizeIp: false   
