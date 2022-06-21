@@ -54,3 +54,4 @@ jekyll_analytics:
   GoogleAnalytics:
     id: G-WHYSBD644S
     anonymizeIp: false   
+google_analytics: "G-WHYSBD644S"
