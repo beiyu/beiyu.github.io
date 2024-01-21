@@ -1,11 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://beiyu.github.io/xml/base.min.xml" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>北羽的博客</title>
     <link>https://beiyu.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 北羽的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://beiyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2024 18:59:21 +0800</lastBuildDate>
+    <atom:link rel="self" href="https://beiyu.github.io/index.xml" type="application/rss+xml" />
+    <item>
+      <title>使用Hugo搭建博客</title>
+      <link>https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 19 Jan 2024 18:59:21 +0800</pubDate>
+      <guid>https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;h3 id=&#34;一关于博客的技术选型&#34;&gt;
+  &lt;a class=&#34;Heading-link u-clickable&#34; href=&#34;https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#%e4%b8%80%e5%85%b3%e4%ba%8e%e5%8d%9a%e5%ae%a2%e7%9a%84%e6%8a%80%e6%9c%af%e9%80%89%e5%9e%8b&#34;&gt;一、关于博客的技术选型&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;博客有很多种技术方案，对于我来说，主要有两个需求：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以文本形式保存内容，数据可以随时迁移和备份，所以优先考虑markdown源文件的形式，pass掉了WordPress和ghost这些方案。&lt;/li&gt;
+&lt;li&gt;以写作体验优先，需求比较纯粹，尽量降低成本不要self-host。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;结合这两个需求，就选择了&lt;code&gt;github pages + hugo&lt;/code&gt;的方案&lt;/p&gt;
+&lt;h3 id=&#34;二操作流程&#34;&gt;
+  &lt;a class=&#34;Heading-link u-clickable&#34; href=&#34;https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#%e4%ba%8c%e6%93%8d%e4%bd%9c%e6%b5%81%e7%a8%8b&#34;&gt;二、操作流程&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;花了一些时间先看一遍官方文档，整体还是比较清晰的，一共分两步：&lt;/p&gt;
+&lt;h4 id=&#34;1用hugo在本地创建一个项目&#34;&gt;
+  &lt;a class=&#34;Heading-link u-clickable&#34; href=&#34;https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#1%e7%94%a8hugo%e5%9c%a8%e6%9c%ac%e5%9c%b0%e5%88%9b%e5%bb%ba%e4%b8%80%e4%b8%aa%e9%a1%b9%e7%9b%ae&#34;&gt;1、用Hugo在本地创建一个项目&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;参考 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装Hugo&lt;/li&gt;
+&lt;li&gt;初始化项目&lt;/li&gt;
+&lt;li&gt;设置一个主题，修改一些基本配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2配置github的actions&#34;&gt;
+  &lt;a class=&#34;Heading-link u-clickable&#34; href=&#34;https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#2%e9%85%8d%e7%bd%aegithub%e7%9a%84actions&#34;&gt;2、配置github的actions&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;参考 &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;https://gohugo.io/hosting-and-deployment/hosting-on-github/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在github创建一个特殊命名的仓库&lt;/li&gt;
+&lt;li&gt;配置github的actions&lt;/li&gt;
+&lt;li&gt;提交本地仓库，触发build&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;三结尾&#34;&gt;
+  &lt;a class=&#34;Heading-link u-clickable&#34; href=&#34;https://beiyu.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#%e4%b8%89%e7%bb%93%e5%b0%be&#34;&gt;三、结尾&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;整个过程非常简单，之所以选择了hugo，也是因为我比较喜欢go语言的设计理念。
+先这样吧，等以后有了什么问题或者其他新发现，我也许会来更新这篇文章。&lt;/p&gt;
+</description>
+    </item>
   </channel>
 </rss>

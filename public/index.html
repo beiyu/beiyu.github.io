@@ -1,117 +1,201 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>My New Hugo Site</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.121.2">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-    
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
-      
-    
-
-    
-      <link rel="canonical" href="https://beiyu.github.io/">
-    
-
-    <meta property="og:title" content="My New Hugo Site" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://beiyu.github.io/" />
-
-<meta itemprop="name" content="My New Hugo Site">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My New Hugo Site"/>
-<meta name="twitter:description" content=""/>
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-
-  <header>
-    <div class="pb3-m pb6-l bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        My New Hugo Site
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      
-<div class="ananke-socials">
+<head>
   
-</div>
 
-    </div>
+  
+  
+
+
+  <meta charset="utf-8">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+    
+  
+
+
+<meta name="color-scheme" content="light dark">
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.121.2">
+  <title>北羽的博客</title>
+  <link rel="canonical" href="https://beiyu.github.io/">
+
+
+
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml">
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+    
+    
+    
+    
+    
+  
+
+
+  
+  <link rel="stylesheet" href="/css/base.min.84ef7ebcfd3fa4098ac74e7dd63124dabe17f779b1984d0fd3aa3afdf6206859.css" integrity="sha256-hO9&#43;vP0/pAmKx0591jEk2r4X93mxmE0P06o6/fYgaFk=" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+  <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        <h1 class="Banner-heading">
+          <a class="Banner-link u-clickable" href="/">北羽的博客</a>
+        </h1>
+      </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/about/">About</a>
+        </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/">Posts</a>
+        </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/tags/">Tags</a>
+        </li>
+      
+        
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/categories/">Categories</a>
+        </li>
+      
+        
+        
+          
+        
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/index.xml">RSS</a>
+        </li>
+      
+    </ul>
   </div>
 </nav>
 
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          My New Hugo Site
-        </h1>
+  <main>
+    <div class="u-wrapper">
+      <div class="u-padding">
         
+
+  
+  
+    <article>
+      <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" rel="bookmark">使用Hugo搭建博客</a>
+  </h2>
+  
+    <time datetime="2024-01-19T18:59:21&#43;08:00">19 January, 2024</time>
+  
+</header>
+      
+        <h3 id="一关于博客的技术选型">
+  <a class="Heading-link u-clickable" href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#%e4%b8%80%e5%85%b3%e4%ba%8e%e5%8d%9a%e5%ae%a2%e7%9a%84%e6%8a%80%e6%9c%af%e9%80%89%e5%9e%8b">一、关于博客的技术选型</a>
+</h3>
+<p>博客有很多种技术方案，对于我来说，主要有两个需求：</p>
+<ul>
+<li>以文本形式保存内容，数据可以随时迁移和备份，所以优先考虑markdown源文件的形式，pass掉了WordPress和ghost这些方案。</li>
+<li>以写作体验优先，需求比较纯粹，尽量降低成本不要self-host。</li>
+</ul>
+<p>结合这两个需求，就选择了<code>github pages + hugo</code>的方案</p>
+<h3 id="二操作流程">
+  <a class="Heading-link u-clickable" href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#%e4%ba%8c%e6%93%8d%e4%bd%9c%e6%b5%81%e7%a8%8b">二、操作流程</a>
+</h3>
+<p>花了一些时间先看一遍官方文档，整体还是比较清晰的，一共分两步：</p>
+<h4 id="1用hugo在本地创建一个项目">
+  <a class="Heading-link u-clickable" href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#1%e7%94%a8hugo%e5%9c%a8%e6%9c%ac%e5%9c%b0%e5%88%9b%e5%bb%ba%e4%b8%80%e4%b8%aa%e9%a1%b9%e7%9b%ae">1、用Hugo在本地创建一个项目</a>
+</h4>
+<p>参考 <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
+<ul>
+<li>安装Hugo</li>
+<li>初始化项目</li>
+<li>设置一个主题，修改一些基本配置</li>
+</ul>
+<h4 id="2配置github的actions">
+  <a class="Heading-link u-clickable" href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#2%e9%85%8d%e7%bd%aegithub%e7%9a%84actions">2、配置github的actions</a>
+</h4>
+<p>参考 <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
+<ul>
+<li>在github创建一个特殊命名的仓库</li>
+<li>配置github的actions</li>
+<li>提交本地仓库，触发build</li>
+</ul>
+<h3 id="三结尾">
+  <a class="Heading-link u-clickable" href="/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#%e4%b8%89%e7%bb%93%e5%b0%be">三、结尾</a>
+</h3>
+<p>整个过程非常简单，之所以选择了hugo，也是因为我比较喜欢go语言的设计理念。
+先这样吧，等以后有了什么问题或者其他新发现，我也许会来更新这篇文章。</p>
+
+      
+      
+
+
+  
+
+  
+
+
+
+
+
+    </article>
+    
+  
+
+  
+
+
+
       </div>
     </div>
-  </header>
+  </main>
+  
+  <footer class="Footer">
+    <div class="u-wrapper">
+      <div class="u-padding u-noboosting">
+        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+    </div>
+  </footer>
 
+</body>
 
-    <main class="pb7" role="main">
-      
- <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    
-  </article>
-  
-  
-  
-  
-  
-  
-  
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://beiyu.github.io/" >
-    &copy;  My New Hugo Site 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-</div>
-</div>
-  </div>
-</footer>
-
-  </body>
 </html>
