@@ -2,3 +2,7 @@ baseURL = 'https://beiyu.github.io/'
 languageCode = 'en-us'
 title = '北羽的博客'
 theme = 'hugo-flex'
+
+[params]
+  footer = 'Powered by Hugo | © 2024 Beiyu All rights reserved.'
+  summaries = true
